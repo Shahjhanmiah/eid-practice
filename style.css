@@ -3,31 +3,31 @@ body{
     box-sizing: border-box;
     background-color: black;
 }
+.box{
+    padding-bottom: 20px;
+}
 nav li{
     list-style: none;
 }
 nav ul a{
     text-decoration: none;
     color: aliceblue;
+    margin-top: 10px;
 }
 nav ul{
     display: flex;
    justify-content: flex-end;
    font-size: 20px;
    padding: 20px;
-   padding-top: 40px;  
+   
 
 }
 nav li a{
     padding: 20px;
     margin: 10px;
+    margin-top: 40%;
 }
-.dropdwon{
-    display: none;
-}
-nav > ul > li:hover > ul{
-    display: block;
-}
+
 #color{
     color: greenyellow;
   
@@ -43,7 +43,7 @@ nav li a:hover{
    border-radius: 5px;
    gap: 3px;
    color: aliceblue;
-   padding-bottom: 40px;
+   
    text-align: center;
 }
 .flex-continer{
@@ -87,13 +87,15 @@ p{
     color: aliceblue;
 }
 .Continer{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     padding: 10px;
     color: black;
     margin: 10px;
-    box-shadow: 10px 10px 40px white;
+    border: 3px solid slategray;
     text-align: center;
+    justify-content: space-around;
+    
 }
 h1{
     color: chartreuse;
@@ -128,6 +130,17 @@ h5{
 }
 .color{
     background-color: chartreuse;
-    width: 50%;
-    padding: 10px;
+    width: 60%;
+    padding: 20px;
+}
+.img-width{
+    width: 60%;
+
+}
+#background-color{
+    background-color: orange;
+    padding:20px;
+    text-align: center;
+    color: aliceblue;
+    
 }
